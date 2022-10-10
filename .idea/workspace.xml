@@ -4,16 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba80bbc2-623a-4633-849e-cd9b05c3faea" name="Changes" comment="" />
+    <list default="true" id="ba80bbc2-623a-4633-849e-cd9b05c3faea" name="Changes" comment="First Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/ujiandua/TestAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/UjianKesatu.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FsIvizFfydQy7GYFxf033wrW58" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,11 +40,22 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/SQABatch6/Fundamental&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/SQABatch6/AddhamPashaBaihaqqi&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.juaracoding.ujiandua" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\SQABatch6\AddhamPashaBaihaqqi\src\main\java\com\juaracoding\ujiandua" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestAccount">
     <configuration name="UjianSoalKesatu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.UjianSoalKesatu" />
       <module name="AddhamPashaBaihaqqi" />
@@ -40,9 +69,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AddhamPashaBaihaqqi" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.ujiandua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties>
+        <property name="amt" value="50000" />
+      </properties>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccount.testInsert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AddhamPashaBaihaqqi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.ujiandua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UjianSoalKesatu" />
+      <item itemvalue="TestNG.TestAccount" />
+      <item itemvalue="TestNG.TestAccount.testInsert" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestAccount" />
         <item itemvalue="Application.UjianSoalKesatu" />
+        <item itemvalue="TestNG.TestAccount.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -55,6 +138,29 @@
       <option name="presentableId" value="Default" />
       <updated>1665274599096</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Test">
+      <created>1665332703470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665332703470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Test" />
   </component>
 </project>
