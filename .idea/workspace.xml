@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba80bbc2-623a-4633-849e-cd9b05c3faea" name="Changes" comment="Second Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/juaracoding/ujiandua/TestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/ujiandua/TestAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="ba80bbc2-623a-4633-849e-cd9b05c3faea" name="Changes" comment="Third Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665370012483</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Third Test">
+      <created>1665459726435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665459726435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +239,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Test" />
     <MESSAGE value="Second Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Test" />
+    <MESSAGE value="Third Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Test" />
   </component>
 </project>
