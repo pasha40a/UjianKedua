@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba80bbc2-623a-4633-849e-cd9b05c3faea" name="Changes" comment="First Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/ujiandua/TestAccount.java" afterDir="false" />
+    <list default="true" id="ba80bbc2-623a-4633-849e-cd9b05c3faea" name="Changes" comment="Second Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/UjianKesatu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/ujiandua/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/juaracoding/ujiandua/TestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/ujiandua/TestAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/ujiandua/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TestAccount">
-    <configuration name="UjianSoalKesatu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.UjianSoalKesatu" />
+    <configuration name="TestAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AddhamPashaBaihaqqi" />
       <extension name="coverage">
         <pattern>
@@ -65,11 +65,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAccount.tesWithDraw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AddhamPashaBaihaqqi" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -82,8 +87,9 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
+      <option name="METHOD_NAME" value="tesWithDraw" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -91,14 +97,46 @@
       </option>
       <option name="PROPERTIES_FILE" value="" />
       <properties>
-        <property name="amt" value="50000" />
+        <property name="amount" value="20000.0" />
+        <property name="amt" value="50000.0" />
       </properties>
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccount.testInsert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAccount.tesWithDrawFalse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AddhamPashaBaihaqqi" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.ujiandua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
+      <option name="METHOD_NAME" value="tesWithDrawFalse" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties>
+        <property name="amount" value="" />
+        <property name="amt" value="50000.0" />
+      </properties>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccount.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AddhamPashaBaihaqqi" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,15 +154,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAccount.testInsert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AddhamPashaBaihaqqi" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.ujiandua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.juaracoding.ujiandua" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.ujiandua.TestAccount" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.UjianSoalKesatu" />
       <item itemvalue="TestNG.TestAccount" />
+      <item itemvalue="TestNG.TestAccount.tesWithDrawFalse" />
+      <item itemvalue="TestNG.TestAccount.test" />
+      <item itemvalue="TestNG.TestAccount.tesWithDraw" />
       <item itemvalue="TestNG.TestAccount.testInsert" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestAccount" />
-        <item itemvalue="Application.UjianSoalKesatu" />
+        <item itemvalue="TestNG.TestAccount.tesWithDrawFalse" />
+        <item itemvalue="TestNG.TestAccount.tesWithDraw" />
+        <item itemvalue="TestNG.TestAccount.test" />
         <item itemvalue="TestNG.TestAccount.testInsert" />
       </list>
     </recent_temporary>
@@ -145,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665332703470</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Test">
+      <created>1665370012483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665370012483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +238,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Test" />
+    <MESSAGE value="Second Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Test" />
   </component>
 </project>

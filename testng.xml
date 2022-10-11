@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="amt" value="50000.0"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Asus/SQABatch6/AddhamPashaBaihaqqi/src/test/java/com/juaracoding/ujiandua/TestAccount.java">
+        <classes>
+            <class name = "com.juaracoding.ujiandua.TestAccount" >
+            <methods>
+                <include name="testWithDraw"/>
+                <include name="testWithDrawFalse"/>
+
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
